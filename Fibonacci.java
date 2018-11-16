@@ -1,9 +1,13 @@
-
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package fibonacci;
 import java.util.*;
 
 public class Fibonacci {
-    public static int N;
+        public static int N;
    
     public static void main(String[] args) {
         user();
@@ -13,9 +17,8 @@ public class Fibonacci {
         Scanner sc = new Scanner(System.in);
         System.out.print("Input number :");
         N = sc.nextInt();
-    }
-    
-    static int fibo (int nn){
+}
+ static int fibo (int nn){
         if (nn == 0 ){
             return 0;
         } else if (nn == 1){
